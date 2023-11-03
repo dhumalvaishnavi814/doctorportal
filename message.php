@@ -3,7 +3,7 @@
 $conn = mysqli_connect("localhost", "root", "", "portals_for _doctors");
 
 
-$text = mysqli_real_escape_string($conn,$_POST['text']);
+$text = mysqli_real_escape_string($con,$_POST['text']);
 
 
 $check_data = "SELECT * FROM chatbot_questionaries where Questions='$text'";
