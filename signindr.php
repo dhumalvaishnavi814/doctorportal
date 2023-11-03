@@ -289,14 +289,14 @@
 if(isset($_POST["signindr"]))
 {
 
-	include('conn.php');
+	include('con.php');
 
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 	
 	// Using prepared statements to prevent SQL injection
 	$sql = "SELECT * FROM doctor WHERE Email = ? AND password = ?";
-	$stmt = $conn->prepare($sql);
+	$stmt = $con->prepare($sql);
 	$stmt->bind_param("ss", $email, $password);
 	$stmt->execute();
 	$result = $stmt->get_result();
