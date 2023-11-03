@@ -5,7 +5,7 @@ if(isset($_POST["loginname"])&& $_POST["password"])
   $user=$_POST["loginname"];
   $pass=$_POST["password"];
   $sql = "SELECT `username`,`password` FROM `user` WHERE `username`=\"$user\" AND `password`=\"$pass\";";
-  $result = mysqli_query($conn, $sql);
+  $result = mysqli_query($con, $sql);
  
  if (mysqli_num_rows($result) > 0) {
     // output data of each row
