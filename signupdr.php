@@ -13,10 +13,10 @@ if(isset($_POST["submit"]))
   
    $sql = "INSERT INTO doctor(doctor_name, qualification ,appointment, password, email) VALUES ('$doctor_name','$qualification','$appointment','$password','$email')";
     echo"<br>".$sql;
-if (mysqli_query($conn, $sql)) {
+if (mysqli_query($con, $sql)) {
   echo "User created successfully";
 } else {
-  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+  echo "Error: " . $sql . "<br>" . mysqli_error($con);
 }
 
 }
