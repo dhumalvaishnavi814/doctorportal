@@ -298,7 +298,7 @@ if(isset($_POST["signin"]))
 	
 	// Using prepared statements to prevent SQL injection
 	$sql = "SELECT * FROM customer WHERE Email = ? AND password = ?";
-	$stmt = $conn->prepare($sql);
+	$stmt = $con->prepare($sql);
 	$stmt->bind_param("ss", $email, $password);
 	$stmt->execute();
 	$result = $stmt->get_result();
