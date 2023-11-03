@@ -1,0 +1,1 @@
+mysql -h vaishanvi.mysql.database.azure.com -u vaishnavi -p  --ssl-ca=DigiCertGlobalRootCA.crt.pem
