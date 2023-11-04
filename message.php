@@ -7,7 +7,7 @@ $text = mysqli_real_escape_string($con,$_POST['text']);
 
 
 $check_data = "SELECT * FROM chatbot_questionaries where Questions='$text'";
-echo $check_data;
+// echo $check_data;
 
 $run_query=mysqli_query($con,$check_data);
 if(mysqli_num_rows($run_query) > 0){
