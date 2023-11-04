@@ -13,9 +13,9 @@ if (!$con) {
 //echo "Connected successfully";
 }
 
-$text = mysqli_real_escape_string($con,$_POST['text']);
-
-//echo "$text";
+//$text = mysqli_real_escape_string($con,$_POST['text']);
+$text=$_POST['text'];
+echo "$text";
 $check_data = "SELECT * FROM chatbot_questionaries where questions='$text'";
  //echo $check_data;
 
