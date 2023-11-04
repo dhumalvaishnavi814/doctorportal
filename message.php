@@ -25,7 +25,7 @@ if(mysqli_num_rows($run_query) > 0){
     while($row=mysqli_fetch_assoc($run_query)){
 
    // $replay = 
-      echo $row['answers'];
+      echo $row['Answers'];
     //echo $replay;
     }
 }else{
