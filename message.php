@@ -1,8 +1,8 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "", "portals_for _doctors");
+// $conn = mysqli_connect("localhost", "root", "", "portals_for _doctors");
 
-
+include('conn.php');
 $text = mysqli_real_escape_string($con,$_POST['text']);
 
 
