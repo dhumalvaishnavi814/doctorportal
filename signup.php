@@ -19,7 +19,7 @@ if(isset($_POST["signup"]))
    
     $sql  = "INSERT INTO `customer`( `customer_id`,`first_name`, `middle_name`, `last_name`, `dob`, `gender`, `city`, `address`, `mono`, `past_records`, `current_health`,`password`,`email`) VALUES ('','$first_name','$middle_name','$last_name','$dob','$mono','$gender','$city','$address','$past_records','$current_health','$password','$email')";
     
-     echo"<br>".$sql;
+    // echo"<br>".$sql;
 if (mysqli_query($con, $sql)) {
   echo "User created successfully";
 } else {
