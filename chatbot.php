@@ -17,7 +17,7 @@
                     <i class="fas fa-user"></i>
                 </div>
                 <div class="msg-header">
-                    <p>Hello.. there, how can I help you?</p>
+<!--                     <p>Hello.. there, how can I help you?</p> -->
                 </div>
             </div>
         </div>
