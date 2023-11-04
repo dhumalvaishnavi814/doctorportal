@@ -276,7 +276,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-3">
 				<p class="omb_forgotPwd">
-					 <a  style="font-size:largar;" href="signup.php" href="signup.php"><span class="fa fa-user-plus"></span> create new account</a>
+					 <a  style="font-size:largar;" href="signup.php"><span class="fa fa-user-plus">create new account</span> </a>
 				</p>
 			</div>
 		</div>	    	
