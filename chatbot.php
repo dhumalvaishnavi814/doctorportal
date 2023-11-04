@@ -30,7 +30,6 @@
                   <button id="send-btn" type="submit">Send</button>
            </form>
 </div>
-<?php include('conn.php'); ?>
 
      <script>
         $(document).ready(function(){
