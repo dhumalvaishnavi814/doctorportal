@@ -224,12 +224,7 @@
  </head>   
 
 <body>
-<!-- 	<nav id="nav">
-		<ul class="main-menu nav navbar-nav navbar-right">
-			<li><a href="index.html"><b><u>Home</u></b></a></li>
-			
-		</ul>
-	</nav> -->
+
 	
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <div class="container">
