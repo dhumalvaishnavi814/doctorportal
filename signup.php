@@ -26,7 +26,7 @@ if (mysqli_query($con, $sql)) {
   echo "Error: " . $sql . "<br>" . mysqli_error($con);
 }
 }
-   echo'hello';
+  // echo'hello';
 ?>
 <html>
 <head>
