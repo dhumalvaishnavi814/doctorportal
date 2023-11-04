@@ -261,7 +261,7 @@
 					</div>
                    
 
-					<button class="btn btn-lg btn-primary btn-block" type="submit" name="signindr">Sign in</button>
+					<a href="chatbot.php"><button class="btn btn-lg btn-primary btn-block" type="button" name="signindr">Sign in</button></a>a>
 				</form>
 			</div>
     	</div>
