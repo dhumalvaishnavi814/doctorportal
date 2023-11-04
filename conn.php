@@ -12,7 +12,7 @@
 //   die("Connection failed: " . mysqli_connect_error());}
 
 // echo "Connected successfully";
-mysql -h vaishanvi.mysql.database.azure.com -u vaishnavi -p  --ssl-ca=DigiCertGlobalRootCA.crt.pem
+//mysql -h vaishanvi.mysql.database.azure.com -u vaishnavi -p  --ssl-ca=DigiCertGlobalRootCA.crt.pem
 $con = mysqli_init();
 mysqli_ssl_set($con,NULL,NULL, "DigiCertGlobalRootCA.crt.pem", NULL, NULL);
 mysqli_real_connect($con, "vaishanvi.mysql.database.azure.com", "vaishnavi", "V@ishnavi2003", "portaldr", 3306, MYSQLI_CLIENT_SSL);
