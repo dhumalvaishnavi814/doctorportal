@@ -18,8 +18,10 @@ mysqli_ssl_set($con,NULL,NULL, "DigiCertGlobalRootCA.crt.pem", NULL, NULL);
 mysqli_real_connect($con, "vaishanvi.mysql.database.azure.com", "vaishnavi", "V@ishnavi2003", "portaldr", 3306, MYSQLI_CLIENT_SSL);
 
 if (!$con) {
-  die("Connection failed: " . mysqli_connect_error());}
+  die("Connection failed: " . mysqli_connect_error());
+}else{
 
 echo "Connected successfully";
+}
 
 ?>
