@@ -42,7 +42,7 @@
                 
                 // start ajax code
                 $.ajax({
-                    url: 'message.php',
+                    url: '../message.php',
                     type: 'POST',
                     data: 'text='+$value,
                     success: function(result){
