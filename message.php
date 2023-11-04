@@ -1,7 +1,7 @@
 <?php
 
-$conn = mysqli_connect("localhost", "root", "", "portals_for _doctors");
-
+//$conn = mysqli_connect("localhost", "root", "", "portals_for _doctors");
+include("conn.php");
 
 $text = mysqli_real_escape_string($con,$_POST['text']);
 
@@ -14,7 +14,7 @@ if(mysqli_num_rows($run_query) > 0){
    
     while($row=mysqli_fetch_assoc($run_query)){
 
-    $replay = $row['answers'];
+    $replay = $row['Aswers'];
     echo $replay;
     }
 }else{
