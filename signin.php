@@ -263,7 +263,7 @@
 					</div>
                    <!-- <span class="help-block">Password error</span> -->
 
-					<a href="chatbot.php"><button class="btn btn-lg btn-primary btn-block" type="submit" name="signin">Sign in</button></a>
+					<a href="chatbot.php"><button class="btn btn-lg btn-primary btn-block" type="button" name="signin">Sign in</button></a>
 				</form>
 			</div>
     	</div>
