@@ -42,7 +42,7 @@ INSERT INTO `chatbot_questionaries` (`Id`, `Questions`, `Answers`) VALUES
 (0, 'How are you?', 'I am fine!!!\r\nok ask me about your doubt...'),
 (1, 'Hi', 'Hello!!'),
 (2, 'How are you?', 'I am Fine!!!\r\nOk ask me about your doubt!!!'),
-(0, '[value-2]', '[value-3]');
+(0, 'Hi, Dr. I have been experiencing persistent headaches lately.','I am sorry to hear that. Can you describe the type of headache and any accompanying symptoms?');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
